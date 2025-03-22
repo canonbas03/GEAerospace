@@ -20,7 +20,10 @@ const showButton = () => {
   <header>Compute Product</header>
   <img src="https://cdn.theforage.com/vinternships/companyassets/ay2tsYxaTif7Nt6z7/AA4Bnq2tJHALwE8cg/1680718790218/pexels-photo-14197334.jpeg" height="200">
   
-
+ <p>
+    <b>Value1: </b>{{var1}}<br>
+    <b>Value2: </b>{{var2}}
+  </p>
  
 
   <div v-if="showButtonCh">
